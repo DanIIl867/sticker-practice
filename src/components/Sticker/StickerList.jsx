@@ -1,4 +1,4 @@
-import {Sticker} from 'components/Sticker/Sticker';
+import {Sticker} from './Sticker';
 
 export function StickerList({stickerData, handleChange}){
     return(
