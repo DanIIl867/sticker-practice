@@ -1,16 +1,26 @@
-export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
+import { StickerList } from "components/Sticker/StickerList";
+import {Choice} from "./Sticker/Choice"
+import stickerData from './data.json'
+import { Component } from "react";
+
+export class App extends Component{
+
+  state={
+    label: '',
+  }
+
+  handleChange(newLabel){
+    this.setState({
+      label: newLabel
+    })
+  }
+
+render(){
+    return(
+      <>
+        <Choice label={this.state.label}/>
+        <StickerList handleChange={this.handleChange} stickerData={stickerData}/>
+      </>
+    )
+}
 };
