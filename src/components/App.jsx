@@ -1,11 +1,11 @@
 import { StickerList } from "components/Sticker/StickerList";
 import {Choice} from "./Sticker/Choice"
-import stickerData from './data.json'
+import stickerData from './stickerData.json'
 import { Component } from "react";
 
 export class App extends Component{
 
-  state={
+  state = {
     label: '',
   }
 
@@ -15,12 +15,12 @@ export class App extends Component{
     })
   }
 
-render(){
+  render(){
     return(
       <>
         <Choice label={this.state.label}/>
         <StickerList handleChange={this.handleChange} stickerData={stickerData}/>
       </>
     )
-}
+  }
 };
