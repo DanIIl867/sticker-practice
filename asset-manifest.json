@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/DanIIl867/sticker-practice.git/static/css/main.7acaea2f.css",
-    "main.js": "/DanIIl867/sticker-practice.git/static/js/main.017b84df.js",
+    "main.css": "/DanIIl867/sticker-practice.git/static/css/main.22316a71.css",
+    "main.js": "/DanIIl867/sticker-practice.git/static/js/main.0bac3746.js",
     "index.html": "/DanIIl867/sticker-practice.git/index.html",
-    "main.7acaea2f.css.map": "/DanIIl867/sticker-practice.git/static/css/main.7acaea2f.css.map",
-    "main.017b84df.js.map": "/DanIIl867/sticker-practice.git/static/js/main.017b84df.js.map"
+    "main.22316a71.css.map": "/DanIIl867/sticker-practice.git/static/css/main.22316a71.css.map",
+    "main.0bac3746.js.map": "/DanIIl867/sticker-practice.git/static/js/main.0bac3746.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.017b84df.js"
+    "static/css/main.22316a71.css",
+    "static/js/main.0bac3746.js"
   ]
 }
