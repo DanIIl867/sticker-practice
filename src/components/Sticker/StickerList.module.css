@@ -1,0 +1,30 @@
+.ul{
+    margin-top: 50px;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.list{
+    background-color: aquamarine;
+    border-radius: 15px;
+    &:hover{
+        background-color: rgb(2, 250, 167);
+        transition: 0.5s;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+
+.text{
+    text-align:center;
+    font-size: 25px;
+    font-weight: 600;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}

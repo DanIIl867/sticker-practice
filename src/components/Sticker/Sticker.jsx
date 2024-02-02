@@ -1,8 +1,10 @@
+import s from './StickerList.module.css'
+
 export function Sticker({img, label, handleChange}){
     return(
-        <li onClick={() => {handleChange(label)}}>
+        <li className={s.list} onClick={() => {handleChange(label)}}>
             <img src={img} alt="" /> 
-            <p>{label}</p>
+            <p className={s.text}>{label}</p>
         </li>
     )
 }

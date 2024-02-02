@@ -9,7 +9,7 @@ export class App extends Component{
     label: '',
   }
 
-  handleChange(newLabel){
+  handleChange = (newLabel) => {
     this.setState({
       label: newLabel
     })
